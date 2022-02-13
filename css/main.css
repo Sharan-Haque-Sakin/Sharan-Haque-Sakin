@@ -1,0 +1,411 @@
+        /* Reset MARGIN AND PADDING */
+*{
+    margin: 0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+            /* Main Parent Container */
+.Container{
+       font-family: Arial, Helvetica, sans-serif;
+}
+        /* Navigation Menu */
+.Navbar{
+/* background-color: black; */
+height: 76px;
+
+
+}
+.Text-Sec{
+    padding: 25px;
+}
+.Logo{  /* Logo  */  
+    width: 75px;
+    border:2px solid red;
+    border-radius: 100px;
+    float: left;
+}
+        /* Main Navigation Bar */
+.Main-Nav{
+  position: fixed;
+  width: 100%;
+}
+.Nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:2px solid black;
+    padding-bottom:15px;
+    /* position: sticky; */
+
+}
+.Navbar li{
+    
+    list-style:none;
+}
+.Navbar li a{
+    text-decoration: none;
+    /* font-size: 1rem; */
+    color: white;
+    padding:1rem 2rem;
+    font-size: 20px;
+    transition:ease-in-out;
+    transition-duration: 0.3s;
+  }
+  .Navbar li a:hover{
+      color:grey;
+  }
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../img/Food-bg.jpg);
+    background-size:cover;
+    background-blend-mode:darken;
+}
+#Navi-Header{
+    text-align: center;
+}
+        /* Second Half */
+.Sec-Part{
+    background: rgba(0, 0, 0, 0.7) url(../img/Food-bg.jpg);
+    background-size:cover;
+    background-blend-mode:darken;
+    height: 550px;    
+}
+.Text-Sec{
+    display: flex;
+    flex-direction: row;
+    padding: 63px 0px;
+}
+#Navi-Header{
+    color: white;
+    margin: auto;
+}
+#goodfood{
+    padding: 4px 17rem;
+color: white;
+font-size: 19px;
+}
+#Nai{
+    width: 182px;
+}
+    /* Social Media Buttons */
+button{
+    border:none;
+    height: 50px;
+    width: 90px;
+    color: white;
+    cursor: pointer;
+
+}
+.btn{
+    transition: ease-in-out;
+}
+
+
+.Social_Media{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#FB{
+    background-color: blue;
+    transition: ease-in-out;
+
+    transition-duration: 0.5s;
+}
+#FB:hover{
+
+background-color: darkblue;
+width: 110px;
+}
+#Twitter{
+background-color: rgb(0, 140, 255);    transition: width;
+transition-duration: 0.5s;
+}
+#Twitter:hover{
+    width: 110px;
+    background-color: blue;
+}
+
+#Insta{
+background-color: brown;
+transition: width;
+transition-duration: 0.5s;
+}
+#Insta:hover{
+    width: 110px;
+    background-color: rgb(110, 29, 29);
+
+}
+#YT{
+    background-color: red;
+    transition: width;
+    transition-duration: 0.5s;
+}
+#YT:hover{
+    width: 110px;
+    background-color: darkred;
+
+}
+#Order{
+    margin:auto;
+    color:white;
+    background-color: transparent;
+    border:2px solid red;
+    border-radius:10px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    transform: translateY(61%);
+    width: 132px;
+    height: 67px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+
+}
+#Order:hover{
+    color:rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.7);
+    width: 150px;
+    height: 71px;
+}
+#order{
+    height: 127px;
+}
+        /* Best Menu */
+.Favourite-Menu{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Favourite-Menu p{
+    font-size: 20px;
+    padding: 0px 12rem;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one img{
+    width: 374px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.pizza-pera{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 23px 7px;
+    width: 59%;
+    
+}
+
+.img1{
+    padding: 2px 16px
+}
+        /* Menu 2 */
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two img{
+    width: 374px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.img2{
+    padding: 2px 16px
+
+}
+.meat-pera{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 23px 7px;
+    width: 59%;
+}
+            /* Menu 3 */
+.three{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.three img{
+    border-radius: 3px;
+}
+.img3{
+    padding: 0px 99px
+}
+.Burger-Pera{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 23px 7px;
+    width: 55%;
+}
+#Our_Menu{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+/* Menu */
+.Menu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#This-menu{
+    text-align: center;
+}
+#Something{
+    display: block;
+    margin: auto;
+    color: black;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 62px;
+    width: 124px;
+    transition-duration: 0.5s;
+}
+#Something:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+    /* Reviews! */
+#bg{
+    background-color: rgb(202, 201, 201);
+    width: 569px;
+    height: 431px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
+#Name{
+text-align: center;
+padding: 3rem 0rem;
+}
+#job{
+text-align: center;
+}
+#Review{
+    font-size: 1rem;
+}
+.Flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#Top-Reviews{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+#Review{
+    padding: 0px 16px;
+}
+    /* review change  */
+#ChangeBtn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -350px;
+  }
+
+#ChangeBtn button{
+    color: purple;
+    background-color: transparent;
+    font-size: 2rem;
+    transition-duration: 0.5s;
+}
+#ChangeBtn button:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+        /* Order */
+@media (max-width:1272px){
+    .Favourite-Menu p {
+        font-size: 20px;
+        padding: 0px 1rem;
+      }
+}
+@media (max-width:892px){
+  
+    .Navbar li {
+        list-style: none;
+        padding: 6px 0px;
+      }
+   
+    .Nav-ul{
+        flex-direction: column;
+    }
+    .Sec-Part {
+        height: 510px;
+        margin-top: -59px;
+        /* padding: 54px 25px; */
+      }
+    .Main-Nav{
+        height: 215px;
+        position: relative ;
+    }
+    .Navbar{
+        height: 60px;
+    }
+    .Sec-Part{
+        height: 510pxpx;
+    }
+    .three{
+        flex-direction: row;
+    }
+    .img3{
+        padding: 0px 0px;
+    }
+    .three img{
+        width: 380px;
+    }
+}
+@media (max-width:810px){
+    .Sec-Part{
+        height: 550px;
+    }
+    #goodfood{
+        padding: 4px 6rem;
+    }
+}
+@media (max-width:756px){
+    .three{
+        flex-direction: column-reverse;
+    }
+    .two{
+        flex-direction: column;
+    }
+    .one{
+        flex-direction: column-reverse;
+
+    }
+}
+@media (max-width:560px){
+    #goodfood{
+        padding: 2px 2rem;
+    }
+    .Burger-Pera{
+        width: 93%;
+    }
+    .meat-pera{
+        width: 92%;
+
+    }
+    .pizza-pera{
+        width: 95%;
+    }
+}
+@media (max-width:560px){
+    #bg{
+        width: 401px;
+    }
+}
+@media (max-width:490px){
+    .Sec-Part{
+        height: 663px;
+    }
+}

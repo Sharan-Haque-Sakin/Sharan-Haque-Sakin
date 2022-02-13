@@ -1,0 +1,189 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+#MainHeading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 46px;
+    margin-right: 81px;
+}
+.Container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-image: linear-gradient(to right,rgb(56, 53, 248),rgb(172, 0, 172));
+    min-height: 500px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+  
+    /* Center the background image */
+    background-position: center;
+  
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+  
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+            /* Tasks */
+.input{
+    display: flex;
+
+}
+
+#Add{ /* Add Task Option*/
+    margin: -1px 560px; 
+    width: 352px;
+    height: 39px;
+    border-radius:  3px;
+    border:none;
+    display:flex;
+}
+
+#add{
+    /* display: flex; */
+    position: relative;
+    left: -554px;
+    border:none;
+    width: 87px;
+    height: 40px;
+    background-color: tomato;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+.INPUT{
+    margin: auto;
+    display: flex;
+}
+#add:hover{
+    background-color: red;
+}
+/* Tasks */
+.flex{
+
+    display: flex;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: first baseline ; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* height: 800px; */
+    align-items: center;
+    
+}
+
+            /* Buttons */
+button{
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+    /* Done Button */
+
+#Done{
+    background-color: lime;
+    transition-property: width height;
+    margin-top: -44px;
+    z-index: 1;
+    transition-duration: 0.5s;
+    position: relative;
+    right: -31px;
+}
+#Done:hover{
+    background-color: limegreen;
+    width: 80px;
+    /* height: 40px; */
+}
+               
+#Dlt{ /* Delete Button */
+    background-color: rgb(245, 38, 38);
+    transition-property: width height;
+    /* transition: ease-in-out; */
+    transition-duration: 0.5s;
+    position: relative;
+    top: 0px;
+    right: -64px;
+}
+#Dlt:hover{
+    background-color: red;
+    width: 80px;
+    /* height: 40px; */
+}
+li{
+    background-color: rgb(206, 206, 206);
+    overflow: hidden;
+    padding: 12px 3px;
+    width: 329px;
+    border-radius: 12px;
+position: relative;
+left: -63px;
+margin: 0.5rem;
+
+    /* padding-left: 44px;
+
+    padding-right: 9px; */
+    /* transition: all 0.5s ease; */
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    /* height: 102px; */
+    justify-content: space-between;
+}
+/* Transition */
+
+
+                /* New Task Button */
+#New-Task{
+    width: 232px;
+    height: 112px;
+    border-radius: 19px;
+    background-color:transparent;
+    border: 3px solid black;
+    /* text-align: center; */
+    /* transform: translate(50%,50%); */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    transition: ease-in-out;
+
+    /* transition-property: ; */
+    transition-duration: 0.5s;
+    /* transition: ease-in-out; */
+    font-size: 22px;
+}
+#New-Task:hover{
+    background-color: black;
+    color: white;
+}
+    /* For Animation */
+    .completed{
+        text-decoration: line-through;
+        opacity: 0.5;
+        /* transition: ease-in-out; */
+        /* transition-duration: 0.5s; */
+        /* transition: ease-in-out;
+        transition-duration: 0.2s; */
+        
+    }
+    .bhag{
+        opacity: 0;
+        transform: translateY(8rem) rotateZ(20deg);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+        /* transition: 0.5s ease; */
+    }
+
+
+
+                /*   For Phone    */
+/* @media screen and (max-width:) */
