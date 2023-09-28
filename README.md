@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Sharan Haque Sakin</h1>
-<h3 align="center">A passionate MERN Developer from Bangaldesh🇧🇩</h3>
+<h3 align="center">A passionate MERN Developer based in Bangaldesh🇧🇩</h3>
 
 <img align="right" alt="coding" width="400px" height="auto" src="https://i.gifer.com/5eKX.gif" />
 
-- 🔭 I’m currently working on **E-Commerce Website**
+- 🔭 I’m currently working on **Blogging Website** for a Client
 
 - 🌱 I’m currently learning **Advanced backend skills💪**
 
