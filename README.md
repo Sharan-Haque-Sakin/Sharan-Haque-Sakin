@@ -3,7 +3,7 @@
 
 <img align="right" alt="coding" width="400px" height="auto" src="https://i.gifer.com/5eKX.gif" />
 
-- 🔭 I’m currently working on **E-ommerce Site ** 
+- 🔭 I’m currently working on **E-commerce Site** 
 
 - 🌱 I’m currently learning **Advanced backend skills💪**
 
@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **sharanhsakin@gmail.com**
 
-- ⚡ **I love MATHS and Physics!⚛️**
+- ⚡ **Love for Math & Physics!⚛️**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
