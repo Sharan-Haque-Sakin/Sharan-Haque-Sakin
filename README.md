@@ -9,7 +9,7 @@
 
 - 👨‍💻 My portfolio --> [https://shsakin.netlify.app](https://shsakin.netlify.app)
 
-- 💬 Ask me about **MERN**
+- 📚 Lifetime learner
 
 - 📫 How to reach me **sharanhsakin@gmail.com**
 
