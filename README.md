@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sharan Haque Sakin</h1>
-<h3 align="center">A passionate MERN Developer based in Bangladesh🇧🇩</h3># <span style="text-align:center; margin:auto;">Sharan Haque Sakin </span>
+<h3 align="center">A passionate MERN Developer based in Bangladesh🇧🇩</h3>
 
 # 💫 About Me:
 
